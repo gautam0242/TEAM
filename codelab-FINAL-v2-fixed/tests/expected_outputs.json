@@ -1,0 +1,40 @@
+{
+ "hello": {
+  "stdin": "",
+  "stdout": "Hello, World!\n"
+ },
+ "sum_stdin": {
+  "stdin": "3 4\n",
+  "stdout": "7\n"
+ },
+ "negatives_zero": {
+  "stdin": "-5\n0\n7\n",
+  "stdout": "neg\nzero\npos\n"
+ },
+ "loops_array": {
+  "stdin": "",
+  "stdout": "9 25\n"
+ },
+ "functions_recursion": {
+  "stdin": "",
+  "stdout": "3628800 6765\n"
+ },
+ "string_vector_sort": {
+  "stdin": "",
+  "stdout": "7ccodelab! 1 2 5 8\n"
+ },
+ "formatting": {
+  "stdin": "",
+  "stdout": "3.14 2.50 3\n   42|42   |\n"
+ },
+ "compile_error": {
+  "kind": "compile_error"
+ },
+ "runtime_error": {
+  "kind": "runtime_error"
+ },
+ "timeout": {
+  "kind": "timeout"
+ },
+ "_compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+}
